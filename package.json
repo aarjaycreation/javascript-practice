@@ -1,0 +1,26 @@
+{
+  "name": "starter-tamplate",
+  "version": "1.0.0",
+  "description": "basic structore on DOM",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aarjaycreation/starter-tamplate.git"
+  },
+  "keywords": [
+    "basic",
+    "DOM",
+    "|",
+    "reset",
+    "css"
+  ],
+  "author": "aarjaycreation",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aarjaycreation/starter-tamplate/issues"
+  },
+  "homepage": "https://github.com/aarjaycreation/starter-tamplate#readme"
+}
