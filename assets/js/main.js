@@ -110,10 +110,10 @@ console.log(nums_one)  // [10, 2, 3, 30]
 
 // compare value but not equal Rule of thumb, we do not compare non-primitive data types
 
-let nums = [1, 2, 3]
-let numbers = [1, 2, 3]
+// let nums = [1, 2, 3]
+// let numbers = [1, 2, 3]
 
-console.log(nums == numbers)  // false
+// console.log(nums == numbers)  // false
 
 let userOne = {
 name:'Asabeneh',
@@ -172,23 +172,23 @@ let firstLetter = string[0]
 console.log(firstLetter)           // J
 
 
-let secondLetter = string[1]       // a
-let thirdLetter = string[2]        // v
-let lastLetter = string[9]
-let lastIndex = string.length - 1
+// let secondLetter = string[1]       // a
+// let thirdLetter = string[2]        // v
+// let lastLetter = string[9]
+// let lastIndex = string.length - 1
 
-console.log(secondLetter)          // a
-console.log(lastLetter)            // t
+// console.log(secondLetter)          // a
+// console.log(lastLetter)            // t
 
 
 
-console.log(lastIndex)  // 9
-console.log(string[lastIndex])    // t
-console.log(string.toUpperCase())     // JAVASCRIPT
-console.log(firstName.toUpperCase())  // RAHUL
-console.log(string.toLowerCase())     // javascript
-console.log(firstName.toLowerCase())  // rahul
-console.log(country.toLowerCase())   // india
+// console.log(lastIndex)  // 9
+// console.log(string[lastIndex])    // t
+// console.log(string.toUpperCase())     // JAVASCRIPT
+// console.log(firstName.toUpperCase())  // RAHUL
+// console.log(string.toLowerCase())     // javascript
+// console.log(firstName.toLowerCase())  // rahul
+// console.log(country.toLowerCase())   // india
 
 // javascript
 console.log(string.substr(4,5))    // Scrip
@@ -346,3 +346,86 @@ let isRaining = false
 isRaining
   ? console.log('You need a rain coat.')
   : console.log('No need for a rain coat.')
+
+
+//   const numbers = [0, 3.14, 9.81, 37, 98.6, 100] // array of numbers
+//   const fruits = ['banana', 'orange', 'mango', 'lemon'] // array of strings, fruits
+//   const vegetables = ['Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot'] // array of strings, vegetables
+//   const animalProducts = ['milk', 'meat', 'butter', 'yoghurt'] // array of strings, products
+//   const webTechs = ['HTML', 'CSS', 'JS', 'React', 'Redux', 'Node', 'MongDB'] // array of web technologies
+//   const countries = ['Finland', 'Denmark', 'Sweden', 'Norway', 'Iceland'] // array of strings, countries
+  
+//   // Print the array and its length
+  
+//   console.log('Numbers:', numbers)
+//   console.log('Number of numbers:', numbers.length)
+  
+//   console.log('Fruits:', fruits)
+//   console.log('Number of fruits:', fruits.length)
+  
+//   console.log('Vegetables:', vegetables)
+//   console.log('Number of vegetables:', vegetables.length)
+  
+//   console.log('Animal products:', animalProducts)
+//   console.log('Number of animal products:', animalProducts.length)
+  
+//   console.log('Web technologies:', webTechs)
+//   console.log('Number of web technologies:', webTechs.length)
+  
+//   console.log('Countries:', countries)
+//   console.log('Number of countries:', countries.length)
+
+// deffrent deffrent datatype array 
+  const arr = [
+     'Asabeneh',
+     250,
+     true,
+     { country: 'Finland', city: 'Helsinki' },
+     { skills: ['HTML', 'CSS', 'JS', 'React', 'Python'] }
+ ] // arr containing different data types
+ console.log(arr)
+
+//  Accessing array items using index 
+// const fruits = ['banana', 'orange', 'mango', 'lemon']
+// let firstFruit = fruits[0] // we are accessing the first item using its index
+
+// console.log(firstFruit) // banana
+
+// secondFruit = fruits[1]
+// console.log(secondFruit) // orange
+
+// let lastFruit = fruits[3]
+// console.log(lastFruit) // lemon
+// // Last index can be calculated as follows
+
+// let lastIndex = fruits.length - 1
+// lastFruit = fruits[lastIndex]
+
+// console.log(lastFruit)  // lemon
+
+// Modifying array element
+const numbers = [1, 2, 3, 4, 5]
+numbers[0] = 10      // changing 1 at index 0 to 10
+numbers[1] = 20      // changing  2 at index 1 to 20
+
+console.log(numbers) // [10, 20, 3, 4, 5]
+
+const countries = [
+  'Albania',
+  'Bolivia',
+  'Canada',
+  'Denmark',
+  'Ethiopia',
+  'Finland',
+  'Germany',
+  'Hungary',
+  'Ireland',
+  'Japan',
+  'Kenya'
+]
+
+countries[0] = 'Afghanistan'  // Replacing Albania by Afghanistan
+let lastIndex = countries.length - 1
+countries[lastIndex] = 'Korea' // Replacing Kenya by Korea
+
+console.log(countries)
