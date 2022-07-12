@@ -429,3 +429,24 @@ let lastIndex = countries.length - 1
 countries[lastIndex] = 'Korea' // Replacing Kenya by Korea
 
 console.log(countries)
+
+
+// function without parameter,  a function which make a number square
+function square() {
+  let num = 7
+  let sq = num * num
+  console.log(sq)
+}
+square() //49
+
+
+// Function returning value
+function printFullName (){
+  let firstName = 'rahul'
+  let lastName = 'jangir'
+  let space = ' '
+  let fullName = firstName + space + lastName
+  return fullName
+}
+console.log(printFullName())
+
